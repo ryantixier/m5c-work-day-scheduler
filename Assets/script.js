@@ -27,20 +27,18 @@ $(function () {
     console.log(scheduledEventArray);
   }
   //
-  //
-  //
-  //
-  //
   // WORK ON CODE BELOW
   //
   //
   function renderScheduledEvents() {
     var storedEvent = JSON.parse(localStorage.getItem("scheduledEvent"));
+    savedText.textContent = storedEvent;
+    // console.log(storedEvent);
     if (storedEvent !== null) {
       storedEvent.textContent = scheduledEventArray.length;
+      console.log(scheduledEventArray.length);
       for (var i = 0; i < scheduledEventArray.length; i++) {
         var storedEvent = scheduledEventArray[i];
-        scheduledEventArray.push(storedEvent);
       }
     } else {
       return;
