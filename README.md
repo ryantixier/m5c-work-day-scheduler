@@ -1,31 +1,42 @@
-# m5c-work-day-scheduler
+# Workday Scheduler
 
-Repo for Module 5 Challenge through DU's Full-Stack Coding Boot Camp
+## Description
 
-# Acceptance criteria (for reference; to be deleted)
+(Input Description/screenshots here)
 
-GIVEN I am using a daily planner to create a schedule
+## Table of Contents
 
-WHEN I open the planner
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
+- [Contact](#contact)
 
-THEN the current day is displayed at the top of the calendar
+## Installation
 
-WHEN I scroll down
+TBD
 
-THEN I am presented with time blocks for standard business hours of 9am to 5pm
+## Usage
 
-WHEN I view the time blocks for that day
+TBD
 
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
+## Contributors
 
-WHEN I click into a time block
+(Input source code note and tutoring note)
 
-THEN I can enter an event
+## License
 
-WHEN I click the save button for that time block
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-THEN the text for that event is saved in local storage
+## Tests
 
-WHEN I refresh the page
+TBD
 
-THEN the saved events persist
+## Contact
+
+GitHub Username: ryantixier
+
+GitHub Link: https://github.com/ryantixier
+
+Email: ryan.m.tixier@gmail.com
