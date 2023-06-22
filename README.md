@@ -10,7 +10,8 @@ This application was created to help track one's daily schedule; an hourly split
 
 ### Deployment
 
-(Insert link to deployed page here)
+GitHub Pages:
+https://ryantixier.github.io/m5c-work-day-scheduler/
 
 ## Table of Contents
 
