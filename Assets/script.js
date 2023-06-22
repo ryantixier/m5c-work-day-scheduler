@@ -50,6 +50,17 @@ $(function () {
       ``;
     });
 
+    $(".time-block").each(function () {
+      var currentHour = dayjs().hour();
+      var blockHour = parseInt($(this).attr("id").split("-")[1]);
+      if (blockHour < currentHour) {
+        $(this).addClass("past");
+      } else if (blockHour === currentHour) {
+        $(this).addClass("present");
+      } else {
+        $(this).addClass("future");
+      }
+    });
     //
     // separate forEach to add/remove classes to make the times color-change
     //      iterate through blocks
@@ -59,7 +70,6 @@ $(function () {
     //      remove past/present/future from HTML
     //
 
-    // savedText.textContent = storedEvent;
     // console.log(storedEvent);
     // storedEvent.textContent = scheduledEventArray.length;
     // console.log(scheduledEventArray.length);
