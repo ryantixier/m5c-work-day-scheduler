@@ -47,6 +47,7 @@ $(function () {
       var block = $(`#${key}`).children()[1];
       block.textContent = value;
       console.log(block);
+      ``;
     });
 
     //
